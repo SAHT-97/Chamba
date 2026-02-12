@@ -58,6 +58,21 @@ _data_factores = [
     {"Mes": 10, "Anio": 2022, "Porcentaje": "1,5 %"},
     {"Mes": 11, "Anio": 2022, "Porcentaje": "1,0 %"},
     {"Mes": 12, "Anio": 2022, "Porcentaje": "0,0 %"},
+
+    # AÑO 2021
+    {"Mes": 1, "Anio": 2021, "Porcentaje": "6,3 %"},
+    {"Mes": 2, "Anio": 2021, "Porcentaje": "5,6 %"},
+    {"Mes": 3, "Anio": 2021, "Porcentaje": "5,4 %"},
+    {"Mes": 4, "Anio": 2021, "Porcentaje": "5,0 %"},
+    {"Mes": 5, "Anio": 2021, "Porcentaje": "4,6 %"},
+    {"Mes": 6, "Anio": 2021, "Porcentaje": "4,3 %"},
+    {"Mes": 7, "Anio": 2021, "Porcentaje": "4,3 %"},
+    {"Mes": 8, "Anio": 2021, "Porcentaje": "3,4 %"},
+    {"Mes": 9, "Anio": 2021, "Porcentaje": "3,1 %"},
+    {"Mes": 10, "Anio": 2021, "Porcentaje": "1,8 %"},
+    {"Mes": 11, "Anio": 2021, "Porcentaje": "0,5 %"},
+    {"Mes": 12, "Anio": 2021, "Porcentaje": "0,0 %"},
+
     # AÑO 2020
     {"Mes": 1, "Anio": 2020, "Porcentaje": "2,6 %"},
     {"Mes": 2, "Anio": 2020, "Porcentaje": "2,1 %"},
