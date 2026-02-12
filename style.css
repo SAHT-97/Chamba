@@ -228,3 +228,53 @@ div[data-baseweb="select"]>div {
     color: #1E293B !important;
     font-weight: 800;
 }
+
+/* =========================================
+   7. LISTAS DESPLEGABLES Y MENÚS (CORRECCIÓN VISUAL AGRESIVA)
+   ========================================= */
+
+/* Forzar fondo blanco en el contenedor del menú desplegable */
+div[data-baseweb="popover"],
+div[data-baseweb="menu"],
+ul[role="listbox"],
+div[role="listbox"] {
+    background-color: #24e2d980 !important;
+    border: 1px solid #d1d5db !important;
+}
+
+/* Forzar color de texto negro para todas las opciones */
+div[data-baseweb="popover"] li,
+div[data-baseweb="menu"] li,
+div[role="option"],
+li[role="option"] {
+    background-color: #e2ebecc5 !important;
+    /* Asegura fondo blanco por opción */
+    color: #183b9c !important;
+    /* Texto NEGRO PURO */
+    font-weight: 500 !important;
+}
+
+/* Asegurar que el texto dentro de los divs de las opciones también sea negro */
+div[data-baseweb="popover"] li *,
+div[data-baseweb="menu"] li *,
+div[role="option"] *,
+li[role="option"] * {
+    color: #1036e0 !important;
+}
+
+/* Efecto Hover: Fondo azul claro con texto negro */
+div[data-baseweb="popover"] li:hover,
+div[data-baseweb="menu"] li:hover,
+div[role="option"]:hover,
+li[role="option"]:hover,
+li[role="option"][aria-selected="true"] {
+    background-color: #e2e8f0 !important;
+    /* Gris/Azul muy claro */
+    color: #000000 !important;
+}
+
+/* Fix específico: a veces el texto se renderiza en un div hijo con opacidad */
+div[data-baseweb="select"] span,
+div[data-baseweb="select"] div {
+    color: #000000 !important;
+}
